@@ -26,7 +26,7 @@ It directly mirrors two tools Accelerate Wind is building:
 
 ## 🏗️ High Level Design (HLD)
 
-![HLD Diagram](hld.pdf)
+![HLD Diagram](Weather_Dashboard_HLD.pdf)
 ---
 
 ## 📊 What This Dashboard Does
