@@ -154,7 +154,7 @@ stakeholders (building managers, field engineers). Appropriate for
 trend-based wind forecasting over 30-day horizons.
 
 **Why site suitability scoring?**  
-Directly mirrors the wind site selection process — combining avg wind 
+Directly mirrors the wind site selection process - combining avg wind 
 speed (60% weight) and consistency (40% weight) to rank stations by 
 turbine deployment viability.
 
