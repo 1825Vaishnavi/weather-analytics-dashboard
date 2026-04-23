@@ -13,8 +13,8 @@ weather stations** - the same type of environmental datasets used in wind energy
 site selection and turbine performance monitoring.
 
 It directly mirrors two tools Accelerate Wind is building:
-- ✅ **GIS Software Tool** → Interactive station map with wind speed scoring
-- ✅ **Customer Dashboard** → Turbine operations reporting with live KPIs
+-  **GIS Software Tool** → Interactive station map with wind speed scoring
+-  **Customer Dashboard** → Turbine operations reporting with live KPIs
 
 ---
 
@@ -144,7 +144,7 @@ app.py (Streamlit)
 ## 🧠 Key Technical Decisions
 
 **Why 95th percentile for anomaly detection?**  
-Standard in turbine monitoring — flags only the most extreme wind events 
+Standard in turbine monitoring - flags only the most extreme wind events 
 that pose real safety/performance risk, avoiding false positives from 
 normal wind variation.
 
@@ -161,5 +161,5 @@ turbine deployment viability.
 ---
 
 **Vaishnavi Mallikarjun Gajarla**  
-MS Data Analytics Engineering — Northeastern University  
+MS Data Analytics Engineering - Northeastern University  
 gajarla.v@northeastern.edu
