@@ -1,5 +1,11 @@
 # 🌤️ NOAA Weather Analytics Dashboard
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://1825vaishnavi-weather-analytics-dashboard-app-kzfyrk.streamlit.app/)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green?logo=pandas)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Viz-purple?logo=plotly)
+![NOAA](https://img.shields.io/badge/Data-NOAA%20Climate-orange)
+
 ## 🎯 Why This Project Matters for Accelerate Wind
 
 This dashboard was built using **real NOAA weather data** across **164 Massachusetts 
@@ -10,6 +16,17 @@ It directly mirrors two tools Accelerate Wind is building:
 - ✅ **GIS Software Tool** → Interactive station map with wind speed scoring
 - ✅ **Customer Dashboard** → Turbine operations reporting with live KPIs
 
+---
+
+## 🚀 Live Demo
+
+🔗 **[View Live Dashboard →](https://1825vaishnavi-weather-analytics-dashboard-app-kzfyrk.streamlit.app/)**
+
+---
+
+## 🏗️ High Level Design (HLD)
+
+![HLD Diagram](hld.pdf)
 ---
 
 ## 📊 What This Dashboard Does
@@ -42,6 +59,8 @@ It directly mirrors two tools Accelerate Wind is building:
 ---
 
 ## 📁 Project Structure
+
+```
 weather-analytics-dashboard/
 │
 ├── pipeline.py              # Data ingestion, cleaning, feature engineering
@@ -50,8 +69,9 @@ weather-analytics-dashboard/
 ├── README.md
 │
 └── data/
-├── raw/                 # NOAA NCEI CSV (local only, gitignored)
-└── processed/           # Cleaned dataset (21 columns, 46,700 rows)
+    ├── raw/                 # NOAA NCEI CSV (local only, gitignored)
+    └── processed/           # Cleaned dataset (21 columns, 46,700 rows)
+```
 
 ---
 
@@ -80,6 +100,8 @@ streamlit run app.py
 ---
 
 ## 📈 Pipeline Architecture
+
+```
 NOAA CSV (raw)
 ↓
 pipeline.py
@@ -100,6 +122,7 @@ app.py (Streamlit)
 ├── Temperature
 ├── Precipitation
 └── Turbine Ops Report
+```
 
 ---
 
@@ -137,8 +160,6 @@ turbine deployment viability.
 
 ---
 
-
-
 **Vaishnavi Mallikarjun Gajarla**  
-MS Data Analytics Engineering - Northeastern University  
+MS Data Analytics Engineering — Northeastern University  
 gajarla.v@northeastern.edu
