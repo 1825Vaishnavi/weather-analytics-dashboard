@@ -26,7 +26,7 @@ It directly mirrors two tools Accelerate Wind is building:
 
 ## 🏗️ High Level Design (HLD)
 
-!<img width="1440" height="1440" alt="image" src="https://github.com/user-attachments/assets/1556524a-db37-414e-b3ae-a0a5da667939" />
+<img width="1440" height="1440" alt="image" src="https://github.com/user-attachments/assets/1556524a-db37-414e-b3ae-a0a5da667939" />
 
 ---
 
